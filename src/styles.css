@@ -1,0 +1,114 @@
+/* src/styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffe6f2; /* Fundo rosa claro */
+  }
+  
+  .App {
+    text-align: center;
+  }
+  
+  header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  nav {
+    background-color: #cc6699; /* Rosa escuro */
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav button {
+    background: none;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  nav button:hover {
+    background-color: #e699cc; /* Rosa mais claro ao passar o mouse */
+  }
+  
+  .user-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10px;
+    font-weight: bold;
+  }
+  
+  .user-icon span {
+    margin-left: 5px;
+  }
+  
+  form {
+    margin: 20px;
+  }
+  
+  input, button {
+    margin: 5px;
+    padding: 10px;
+  }
+  
+  button {
+    background-color: #ff99cc; /* Rosa médio */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ff6699; /* Rosa mais escuro ao passar o mouse */
+  }
+  
+  h1 {
+    color: #cc3366; /* Título em rosa mais forte */
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: white;
+    margin: 5px 0;
+    padding: 10px;
+    border: 1px solid #ffb3d9; /* Bordas com tom suave de rosa */
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+  }
+  
+  table, th, td {
+    border: 1px solid #ffb3d9; /* Bordas com tom suave de rosa */
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #cc6699; /* Rosa escuro */
+    color: white;
+  }
+  
+  td {
+    background-color: white;
+  }
+  
